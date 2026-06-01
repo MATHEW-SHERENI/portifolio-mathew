@@ -43,10 +43,10 @@ function App() {
           <a className="email" href="tel:+13142801084">📞 +1 (314) 280-1084</a>
         </div>
         <div className="social-links">
-          <a href="https://github.com/mashereni" className="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/MATHEW-SHERENI" className="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
           </a>
-          <a href="https://linkedin.com/in/mathew-shereni" className="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <a href="www.linkedin.com/in/mathew-shereni-213130aa" className="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
           <a href="mailto:mashereni@gmail.com" className="social-link" title="Email" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@ function App() {
           <a href="https://github.com/mashereni" className="section-link" target="_blank" rel="noopener noreferrer">View GitHub →</a>
         </div>
         <div className="project-grid">
-          <a href="https://github.com/oss-slu/core_desk" className="project-card" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/oss-slu/material-derailleur" className="project-card" target="_blank" rel="noopener noreferrer">
             <h3>Material-Derailleur</h3>
             <p className="project-desc">Open-source donation and inventory management platform for 3D-printing manufacturing. Leading backend, contributor onboarding, and architectural decisions as Tech Lead.</p>
             <div className="tags">
