@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './index.css'
 import './App.css'
+import profilePic from './assets/profilePic.jpeg'
 
 function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="portrait">
       <header className="header">
-        <div className="logo">MS</div>
+        <div className="logo"><img src={profilePic} alt="Mathew Shereni" className="logo-img" /></div>
         <nav className="nav">
           <a href="#projects" className="nav-link">Projects</a>
           <a href="#experience" className="nav-link">Experience</a>
