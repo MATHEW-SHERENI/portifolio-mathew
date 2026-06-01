@@ -59,7 +59,7 @@ function App() {
         <div className="section-header">
           <span className="section-icon">▦</span>
           <h2>Selected Projects</h2>
-          <a href="https://github.com/mashereni" className="section-link" target="_blank" rel="noopener noreferrer">View GitHub →</a>
+          <a href="https://github.com/MATHEW-SHERENI" className="section-link" target="_blank" rel="noopener noreferrer">View GitHub →</a>
         </div>
         <div className="project-grid">
           <a href="https://github.com/oss-slu/material-derailleur" className="project-card" target="_blank" rel="noopener noreferrer">
