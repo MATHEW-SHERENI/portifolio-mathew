@@ -30,8 +30,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: portifolio-mathew
-=======
-          projectName: "portfolio-mathew"
->>>>>>> 89bf099bfaf6080aa3a350a95b22a6bf2903e52f
-          directory: dist
+          projectName: portfolio-mathew
