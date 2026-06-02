@@ -272,9 +272,9 @@ function App() {
           <h2>Certifications</h2>
         </div>
         <div className="certifications">
-          <a href="#" className="cert" target="_blank" rel="noopener noreferrer">Oracle Certified Java Programmer</a>
-          <a href="#" className="cert" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure Associate</a>
-          <a href="#" className="cert" target="_blank" rel="noopener noreferrer">Foundational C# with Microsoft</a>
+          <a href="#" className="cert" target="_blank" rel="https://catalog-education.oracle.com/ords/certview/sharebadge?id=6467BA695BF5817D6F80AA0B6E8E0EBE8E9E20A0E2DBCD1FFB6CAFC91157AD4B">Oracle Certified Java Programmer</a>
+          <a href="#" className="cert" target="_blank" rel="https://catalog-education.oracle.com/pls/certview/sharebadge?id=095341BB941A5930023EE54A315A8458F18599A77AEC5F3186DD18DA4880EF91">Oracle Cloud Infrastructure Associate</a>
+          <a href="#" className="cert" target="_blank" rel="https://freecodecamp.org/certification/fcc92e1e538-cae0-4f07-8e45-ffd5c525716e/foundational-c-sharp-with-microsoft">Foundational C# with Microsoft</a>
         </div>
       </section>
 
