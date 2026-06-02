@@ -8,6 +8,13 @@
   --accent-bg: rgba(37, 99, 235, 0.08);
   --accent-border: rgba(37, 99, 235, 0.35);
   --social-bg: rgba(244, 243, 236, 0.5);
+  --hero-ink: hsl(60deg 20% 25%);
+  --hero-ink-hover: hsl(60deg 20% 45%);
+  --hero-ink-fg: hsl(60deg 10% 95%);
+  --hero-beige: hsl(60deg 20% 95%);
+  --hero-beige-hover: hsl(60deg 20% 88%);
+  --hero-muted: #727272;
+  --hero-avatar-ring: hsl(60deg 20% 95%);
   --shadow:
     rgba(0, 0, 0, 0.06) 0 10px 15px -3px, rgba(0, 0, 0, 0.03) 0 4px 6px -2px;
 
@@ -52,6 +59,13 @@
   --accent-bg: rgba(96, 165, 250, 0.12);
   --accent-border: rgba(96, 165, 250, 0.45);
   --social-bg: rgba(47, 48, 58, 0.5);
+  --hero-ink: #e8e8ed;
+  --hero-ink-hover: #c4c4cc;
+  --hero-ink-fg: #16171d;
+  --hero-beige: #2e303a;
+  --hero-beige-hover: #3d4050;
+  --hero-muted: #9ca3af;
+  --hero-avatar-ring: #3d4050;
   --shadow:
     rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
 }
@@ -61,16 +75,15 @@ body {
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, background 0.3s;
 }
 
 h1,
