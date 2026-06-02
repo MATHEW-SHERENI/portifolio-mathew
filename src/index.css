@@ -24,9 +24,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background 0.3s, color 0.3s;
+}
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
+.hos-500 {
+  @container (max-width: 500px) {
+    display: none;
+  }
+}
+.hos-350 {
+  @container (max-width: 350px) {
+    display: none;
+  }
+}
+.m-hos-750 {
+  @media screen and (max-width: 750px) {
+    display: none;
   }
 }
 
