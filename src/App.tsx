@@ -190,11 +190,11 @@ function App() {
         <div className="skills-grid">
           <div className="skill-category">
             <h4>DevOps & Cloud</h4>
-            <p>Docker, Kubernetes, AWS, Oracle Cloud, CI/CD, IaC</p>
+            <p>Docker, Kubernetes, AWS, Oracle Cloud, CI/CD, IaC, Jenkins, Docker, Kubernetes</p>
           </div>
           <div className="skill-category">
             <h4>Languages</h4>
-            <p>Java, Python, C#, SQL, TypeScript</p>
+            <p>Java, Python, C#, SQL, TypeScript, JavaScript, HTML, CSS</p>
           </div>
           <div className="skill-category">
             <h4>Backend</h4>
@@ -202,7 +202,7 @@ function App() {
           </div>
           <div className="skill-category">
             <h4>Frontend</h4>
-            <p>React, Angular, TypeScript</p>
+            <p>React, Angular, TypeScript, HTML, CSS</p>
           </div>
           <div className="skill-category">
             <h4>Databases</h4>
