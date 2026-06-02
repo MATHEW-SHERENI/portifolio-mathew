@@ -139,6 +139,34 @@ function App() {
           <a href="https://github.com/MATHEW-SHERENI" className="section-link" target="_blank" rel="noopener noreferrer">View GitHub →</a>
         </div>
         <div className="project-grid">
+          <a
+            href="https://zjspt.org/"
+            className="project-card project-card-featured"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="project-visual project-visual-zjspt" aria-hidden="true">
+              <span className="project-visual-badge">Live</span>
+              <span className="project-visual-kicker">Academic publishing</span>
+              <span className="project-visual-title">ZJSPT</span>
+              <span className="project-visual-sub">Zambian Journal of Sports Physical Therapy</span>
+            </div>
+            <div className="project-body">
+              <h3>Zambian Journal of Sports Physical Therapy</h3>
+              <p className="project-desc">
+                Designed and built the official open-access journal website for Zambia&apos;s
+                leading sports physiotherapy publication—manuscript submissions, current issues,
+                peer-review information, and editorial contact in one responsive platform.
+              </p>
+              <div className="tags">
+                <span className="tag">Web Development</span>
+                <span className="tag">Responsive UI</span>
+                <span className="tag">Academic Publishing</span>
+                <span className="tag">Zambia</span>
+              </div>
+              <span className="project-cta">Visit zjspt.org →</span>
+            </div>
+          </a>
           <a href="https://github.com/oss-slu/material-derailleur" className="project-card" target="_blank" rel="noopener noreferrer">
             <h3>Material-Derailleur</h3>
             <p className="project-desc">Open-source Donation Management System. Leading backend, contributor onboarding, and architectural decisions as Tech Lead.</p>
@@ -221,6 +249,32 @@ function App() {
           <h2>Experience</h2>
         </div>
         <div className="experience-list">
+          <article className="experience-item experience-item-featured">
+            <div className="experience-featured-head">
+              <div>
+                <h3 className="role">Web Developer</h3>
+                <p className="company">Zambian Journal of Sports Physical Therapy (ZJSPT)</p>
+                <p className="date">Lusaka, Zambia · Remote · 2024 – Present</p>
+              </div>
+              <a
+                href="https://zjspt.org/"
+                className="experience-site-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                zjspt.org ↗
+              </a>
+            </div>
+            <p className="experience-lead">
+              End-to-end delivery of the journal&apos;s public-facing platform—translating editorial
+              needs into a credible, accessible site for authors, reviewers, and readers across Africa.
+            </p>
+            <ul>
+              <li>Built a responsive, mobile-first site highlighting peer-reviewed research, submission workflows, and diamond open-access publishing</li>
+              <li>Structured content for current issues, author guidelines, reviewer recruitment, and editorial contact</li>
+              <li>Deployed and maintained production hosting with a professional presence aligned to sports physiotherapy in the global south</li>
+            </ul>
+          </article>
           <div className="experience-item">
             <h3 className="role">Tech Lead — Open-Source Program</h3>
             <p className="company">Saint Louis University</p>
