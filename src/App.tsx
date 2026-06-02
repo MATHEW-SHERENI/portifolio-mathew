@@ -3,14 +3,16 @@ import './index.css'
 import './App.css'
 import mathewLogo from './assets/mathewLogo.png'
 import profilePic from './assets/profilePic.jpeg'
+import resumePdf from './assets/MATHEWSHERENI_RESUME.pdf'
 
 const ROLES = [
-  'software engineer',
-  'tech lead',
-  'backend developer',
-  'open-source contributor',
-  'mentor',
-  'team builder',
+  'software Engineer',
+  'Tech lead',
+  'DevOps Engineer',
+  'Backend developer',
+  'Open-source contributor',
+  'Mentor',
+  'Team builder',
 ]
 
 function RoleLine() {
@@ -31,7 +33,7 @@ function RoleLine() {
       <span key={role} className="hero-role-word">
         {role}
       </span>{' '}
-      from Saint Louis
+      from Saint Louis, USA
     </h2>
   )
 }
@@ -52,6 +54,14 @@ function App() {
       <nav className="top-nav" aria-label="Site">
         <img src={mathewLogo} alt="" className="nav-avatar" />
         <span className="nav-name hos-500">Mathew Shereni</span>
+        <a
+          className="nav-text-link"
+          href={resumePdf}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
         <a className="nav-text-link" href="#experience">
           Experience
         </a>
@@ -67,6 +77,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Github
+        </a>
+        <a
+          className="nav-text-link hos-350"
+          href="https://www.linkedin.com/in/mathew-shereni-213130aa"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
         </a>
         <button
           className="theme-toggle"
@@ -100,12 +118,12 @@ function App() {
                 Projects
               </a>
               <a
-                href="https://www.linkedin.com/in/mathew-shereni-213130aa"
+                href={resumePdf}
                 className="btn btn-secondary"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn
+                Resume
               </a>
             </div>
           </div>
