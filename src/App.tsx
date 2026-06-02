@@ -249,6 +249,16 @@ function App() {
           <h2>Experience</h2>
         </div>
         <div className="experience-list">
+          <div className="experience-item">
+            <h3 className="role">Tech Lead — Open-Source Program</h3>
+            <p className="company">Saint Louis University</p>
+            <p className="date">Saint Louis, MO · Dec 2025 – Present</p>
+            <ul>
+              <li>Leading backend development for OSS-SLU Material-Derailleur, ensuring reliability, scalability, and clear documentation</li>
+              <li>Coordinating contributor onboarding and fostering collaborative team rituals</li>
+              <li>Driving process improvements and architectural decisions</li>
+            </ul>
+          </div>
           <article className="experience-item experience-item-featured">
             <div className="experience-featured-head">
               <div>
@@ -275,16 +285,6 @@ function App() {
               <li>Deployed and maintained production hosting with a professional presence aligned to sports physiotherapy in the global south</li>
             </ul>
           </article>
-          <div className="experience-item">
-            <h3 className="role">Tech Lead — Open-Source Program</h3>
-            <p className="company">Saint Louis University</p>
-            <p className="date">Saint Louis, MO · Dec 2025 – Present</p>
-            <ul>
-              <li>Leading backend development for OSS-SLU Material-Derailleur, ensuring reliability, scalability, and clear documentation</li>
-              <li>Coordinating contributor onboarding and fostering collaborative team rituals</li>
-              <li>Driving process improvements and architectural decisions</li>
-            </ul>
-          </div>
           <div className="experience-item">
             <h3 className="role">IT Officer</h3>
             <p className="company">ACOL Chemical Holdings</p>
