@@ -4,6 +4,9 @@ import './App.css'
 import mathewLogo from './assets/mathewLogo.png'
 import profilePic from './assets/profilePic.jpeg'
 import resumePdf from './assets/MATHEWSHERENI_RESUME.pdf'
+import csharpCertPreview from './assets/csharp-cert-preview.png'
+import oracleJavaBadge from './assets/oracle-java-badge.png'
+import oracleOciBadge from './assets/oracle-oci-badge.png'
 
 const ROLES = [
   'software Engineer',
@@ -272,9 +275,48 @@ function App() {
           <h2>Certifications</h2>
         </div>
         <div className="certifications">
-          <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=6467BA695BF5817D6F80AA0B6E8E0EBE8E9E20A0E2DBCD1FFB6CAFC91157AD4B" className="cert" target="_blank" rel="noopener noreferrer">Oracle Certified Java Programmer</a>
-          <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=095341BB941A5930023EE54A315A8458F18599A77AEC5F3186DD18DA4880EF91" className="cert" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure Associate</a>
-          <a href="https://freecodecamp.org/certification/fcc92e1e538-cae0-4f07-8e45-ffd5c525716e/foundational-c-sharp-with-microsoft" className="cert" target="_blank" rel="noopener noreferrer">Foundational C# with Microsoft</a>
+          <a
+            href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=6467BA695BF5817D6F80AA0B6E8E0EBE8E9E20A0E2DBCD1FFB6CAFC91157AD4B"
+            className="cert cert-with-preview"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={oracleJavaBadge}
+              alt="Oracle Certified Associate Java SE 8 Programmer badge"
+              className="cert-preview cert-preview-badge"
+            />
+            <span className="cert-label">Oracle Certified Java Programmer</span>
+            <span className="cert-meta">Oracle · Java SE 8 · View credential →</span>
+          </a>
+          <a
+            href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=095341BB941A5930023EE54A315A8458F18599A77AEC5F3186DD18DA4880EF91"
+            className="cert cert-with-preview"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={oracleOciBadge}
+              alt="Oracle Cloud Infrastructure Foundations Associate 2023 badge"
+              className="cert-preview cert-preview-badge"
+            />
+            <span className="cert-label">Oracle Cloud Infrastructure Associate</span>
+            <span className="cert-meta">Oracle · OCI Foundations 2023 · View credential →</span>
+          </a>
+          <a
+            href="https://freecodecamp.org/certification/fcc92e1e538-cae0-4f07-8e45-ffd5c525716e/foundational-c-sharp-with-microsoft"
+            className="cert cert-with-preview"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={csharpCertPreview}
+              alt="Foundational C# with Microsoft certificate awarded to Mathew Shereni, September 6, 2023"
+              className="cert-preview"
+            />
+            <span className="cert-label">Foundational C# with Microsoft</span>
+            <span className="cert-meta">freeCodeCamp · Sep 2023 · View credential →</span>
+          </a>
         </div>
       </section>
 
@@ -283,7 +325,7 @@ function App() {
           <span> <img
               src={mathewLogo}
               alt="Mathew Shereni"
-              className="hero-avatar"
+              className="nav-avatar"
             /></span>
         </footer>
       </div>
