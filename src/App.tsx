@@ -7,6 +7,7 @@ import resumePdf from './assets/MATHEWSHERENI_RESUME.pdf'
 import csharpCertPreview from './assets/csharp-cert-preview.png'
 import oracleJavaBadge from './assets/oracle-java-badge.png'
 import oracleOciBadge from './assets/oracle-oci-badge.png'
+import realtimeChatPreview from './assets/realtime-chat-preview.png'
 
 const ROLES = [
   'software Engineer',
@@ -187,16 +188,50 @@ function App() {
               <span className="tag">Chrome Extension</span>
             </div>
           </a>
-          <a href="#" className="project-card">
-            <h3>Real-Time Chat</h3>
-            <p className="project-desc">Real-time messaging application built with Spring Boot, WebSocket, STOMP, and Thymeleaf for instant communication with a smooth user experience.</p>
-            <div className="tags">
-              <span className="tag">Spring Boot</span>
-              <span className="tag">WebSocket</span>
-              <span className="tag">Thymeleaf</span>
-              <span className="tag">Java</span>
+          <article className="project-card project-card-with-preview">
+            <a
+              href="https://real-time-chat-web-app-bqsb.onrender.com"
+              className="project-preview-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={realtimeChatPreview}
+                alt="Real-Time Chat Application showing live messaging and file attachments in dark and light mode"
+                className="project-preview-img"
+              />
+            </a>
+            <div className="project-preview-body">
+              <h3>Real-Time Chat (Zimchat)</h3>
+              <p className="project-desc">
+                Spring Boot chat app with STOMP WebSockets for instant messaging, file attachments,
+                and timestamps. Containerised with Docker and shipped via CI/CD on GitHub Actions
+                to Render.
+              </p>
+              <div className="tags">
+                <span className="tag">Spring Boot</span>
+                <span className="tag">WebSocket</span>
+                <span className="tag">Docker</span>
+                <span className="tag">GitHub Actions</span>
+              </div>
+              <div className="project-card-actions">
+                <a
+                  href="https://real-time-chat-web-app-bqsb.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live demo →
+                </a>
+                <a
+                  href="https://github.com/MATHEW-SHERENI/Real-time-chat-web-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub →
+                </a>
+              </div>
             </div>
-          </a>
+          </article>
           <a href="#" className="project-card">
             <h3>Email Assistant</h3>
             <p className="project-desc">Java/Spring Boot email assistant web app that helps reply to Gmail messages using Google's Gemini AI for smart email composition.</p>
