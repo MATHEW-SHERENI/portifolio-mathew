@@ -57,7 +57,12 @@ function App() {
     <div className="portrait">
       <nav className="top-nav" aria-label="Site">
         <img src={mathewLogo} alt="" className="nav-avatar" />
-        <span className="nav-name hos-500">Mathew Shereni</span>
+        <a
+          className="nav-name hos-500"
+          href="https://mathewshereni.com/"
+        >
+          Mathew Shereni
+        </a>
         <a
           className="nav-text-link"
           href={resumePdf}
@@ -84,7 +89,7 @@ function App() {
         </a>
         <a
           className="nav-text-link hos-350"
-          href="https://www.linkedin.com/in/mathew-shereni-213130aa"
+          href="https://www.linkedin.com/in/mathew-shereni-213130aa/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -411,11 +416,19 @@ function App() {
 
         <footer className="footer">
           <span>© 2026 Mathew Shereni</span>
-          <span> <img
-              src={mathewLogo}
-              alt="Mathew Shereni"
-              className="nav-avatar"
-            /></span>
+          <span className="footer-links">
+            <a href="https://mathewshereni.com/" target="_blank" rel="noopener noreferrer">
+              mathewshereni.com
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mathew-shereni-213130aa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <img src={mathewLogo} alt="" className="nav-avatar" />
+          </span>
         </footer>
       </div>
     </div>
