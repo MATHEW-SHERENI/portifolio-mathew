@@ -10,7 +10,7 @@ import oracleOciBadge from './assets/oracle-oci-badge.png'
 import realtimeChatPreview from './assets/realtime-chat-preview.png'
 
 const ROLES = [
-  'software Engineer',
+  'Software Engineer',
   'Tech lead',
   'DevOps Engineer',
   'Backend developer',
